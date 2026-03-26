@@ -56,9 +56,9 @@ h5 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7); /* this adds the "card" effect */
   padding: 16px;
   border-radius: 10px 10px 10px 10px;
-  background-image: url("./img/waves.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("./img/waves3.jpeg");
+  background-size: small;
+  background-repeat: repeat;
   text-align: center;
   font-family: "Iosevka Charon", monospace;
   font-size: 1.5em;
