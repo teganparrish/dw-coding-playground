@@ -53,14 +53,14 @@ h5 {
 
 /* Style the card for the header/title card */
 .cardTitle {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7); /* this adds the "card" effect */
   padding: 16px;
   border-radius: 10px 10px 10px 10px;
-  background-image: url("./img/clouds.jpg");
+  background-image: url("./img/waves.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  font-family: "PT Serif", serif;
+  font-family: "Iosevka Charon", monospace;
   font-size: 1.5em;
 }
 
@@ -132,9 +132,9 @@ h5 {
   min-height: 375px;
   border-radius: 10px 10px 10px 10px;
   text-align: left;
-  background-color: blue;
+  background-color: grey;
   color: white;
-  font-family: "PT Serif", serif; /* font for <p> text */
+  font-family: "DM Serif Text", monospace; /* font for <p> text */
   font-size: 14px;
   text-align: right;
 }
@@ -158,9 +158,9 @@ h5 {
   border-radius: 10px 10px 10px 10px;
   text-align: left;
   background-color: #000000;
-  background-image: url("./img/catBG.gif"); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
-  color: #68d911;
-  font-family: "Source Code Pro", monospace;
+  background-image: url("./img/tears2.gif"); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
+  color: orange;
+  font-family: "Iosevka Charon", monospace;
   font-size: 14px; 
 }
 

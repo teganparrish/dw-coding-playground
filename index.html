@@ -42,10 +42,16 @@
       href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap"
       rel="stylesheet"
     />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Iosevka+Charon&display=swap" rel="stylesheet">
+
     <!-- end of fonts -->
 
     <!-- title of poem as it should appear in browser tab - edit the text-->
-    <title>Title of Poem</title>
+    <title>Dive Deeper</title>
 
     <!-- import the webpage's stylesheet (do not edit) -->
     <link rel="stylesheet" href="./style.css" />
@@ -59,9 +65,9 @@
     <div class="column-wide">
       <!-- specifies the width of the card -->
       <div class="cardTitle">
-        <h1>Title of Poem</h1>
+        <h1>Dive Deeper</h1>
         <!-- the h1 header tag is inherited from the page's 'body' style specified in the stylesheet - if you want to change the h1 font you can create a new class in the stylesheet similar to the specified h3 and h5 classes -->
-        <h5>by Your Name</h5>
+        <h5>by Tegan Parrish</h5>
         <!-- you can edit the styling of the h5 font in the stylesheet -->
       </div>
     </div>
@@ -70,7 +76,7 @@
     <div class="columnS">
       <!-- specifies the width of the card-->
       <div class="cardError">
-        <h3>Message Alert</h3>
+        <h3>Notifications</h3>
         <p id="networkError" class="center">Not connected.</p>
         <hr />
 <button id="button-network" class="buttonNetwork" onclick="changeResultsError()">Retry</button>
@@ -86,16 +92,16 @@
       <div class="columnL">
         <!-- specifies the width of the card-->
         <div class="cardNotes">
-          <p>text text</p>
+          <p>reminder</p>
           <br />
           <!--inserts a line break -->
-          <p>poem writing here</p>
+          <p>hayley's bday this saturday</p>
           <br />
-          <p>write something</p>
+          <p>don't forget present</p>
           <br />
-          <p>🧩🤾🤿🌄🌠💎🧿🪅❗🏴‍☠️</p>
+          <p>🥳😵👀😴😎🎁</p>
           <br />
-          <img src="clouds.jpg" alt="clouds">
+          <img src="birthday.jpg" alt="birthday">
         </div>
       </div>
 
@@ -104,10 +110,14 @@
         <!-- specifies the width of the card-->
         <div class="cardText">
           <p class="bubble">hey</p>
-          <p class="bubble">hey</p>
-          <p class="bubble">sup</p>
-          <p class="bubble bubble--alt">new phone who dis</p>
-          <p class="bubble">...</p>
+          <p class="bubble">hello</p>
+          <p class="bubble">are you there?</p>
+          <p class="bubble bubble--alt">...</p>
+          <p class="bubble">what's up?</p>
+          <p class="bubble bubble--alt">it's been a while</p>
+          <p class="bubble bubble--alt">i don't know you anymore</p>
+          <p class="bubble">wait, i'm sorry</p>
+          <p class="bubble bubble--alt">goodbye</p>
         </div>
       </div>
 
@@ -117,15 +127,15 @@
         <div class="cardDropdown">
           <!-- edit the cardDropdown class in style.css to change the look -->
           <!-- title of dropdown poem -- edit the title and the option values, making sure the option values then match up with those in the dropdownFunction in the script.js file-->
-          <h2>Moods got me like</h2>
+          <h2>My best emotions :)</h2>
           <br />
           <select id="subject" class="text-box" onchange="dropdownFun()">
             <option value="">Select a feeling</option>
-            <option value="flighty">flighty</option>
-            <option value="vague">vague</option>
-            <option value="joyful">joyful</option>
-            <option value="cloudy">cloudy</option>
-            <option value="hangry">hangry</option>
+            <option value="sad">sad</option>
+            <option value="desperate">desperate</option>
+            <option value="artificial">artificial</option>
+            <option value="foggy">foggy</option>
+            <option value="lost">lost</option>
           </select>
           <br />
           <!-- results of dropdown menu go here-->
@@ -140,19 +150,19 @@
         <!-- specifies the width of the card-->
         <div class="cardHaiku">
           <!-- edit the cardHaiku class in style.css to change the look-->
-          <h4>Garfield is hungry</h4>
+          <h4>Hold me when it's dark</h4>
           <!-- once you have replaced the 5 and 7 syllable variables in the script.js file with your own content, 'remix' the poem to see what Haiku generate; once you find three Haiku that you like, replace the below placeholder text by transcribing your poem-->
-          <p id="haiku-1-1">thinking about lasagne</p>
-          <p id="haiku-1-2">the noodles must be wavey</p>
-          <p id="haiku-1-3">i am so hungry</p>
+          <p id="haiku-1-1">open and look in</p>
+          <p id="haiku-1-2">make me love this world again</p>
+          <p id="haiku-1-3">this life is so cold</p>
           <br />
-          <p id="haiku-2-1">jon you are my pet</p>
-          <p id="haiku-2-2">nothing left to do but sleep</p>
-          <p id="haiku-2-3">garfield was in the oven</p>
+          <p id="haiku-2-1">drag me down and die</p>
+          <p id="haiku-2-2">make me love this world again</p>
+          <p id="haiku-2-3">over and over</p>
           <br />
-          <p id="haiku-3-1">i am so hungry</p>
-          <p id="haiku-3-2">nothing left to do but sleep</p>
-          <p id="haiku-3-3">i am so hungry</p>
+          <p id="haiku-3-1">can you save me now?</p>
+          <p id="haiku-3-2">make me love this world again</p>
+          <p id="haiku-3-3">here we go once more</p>
           <!-- button to remix haiku -->
 <button id="button-haiku" class="buttonHaiku" onclick="changeResults()">remix</button>
         </div>
@@ -184,7 +194,7 @@
       <div class="columnXl">
         <!-- specifies the width of the card -->
         <div class="cardPoem">
-          <p>Dystopian dreams (after Benjamin Laird's 'We Walk to You' version of Nick Monfort's <a href="https://nickm.com/taroko_gorge/original.html">Taroko Gorge</a>)</p>
+          <p>My phone is my best friend (after Benjamin Laird's 'We Walk to You' version of Nick Monfort's <a href="https://nickm.com/taroko_gorge/original.html">Taroko Gorge</a>)</p>
           <hr />
           <div id="poem" style="text-align: right"></div>
         </div>
